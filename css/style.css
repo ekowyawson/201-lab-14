@@ -1,1 +1,50 @@
-/* TODO: Make it awesome */
+body  {
+    margin: 30px;
+    background-color: #e3c1d6;
+}
+
+h1 {
+    background-color: #7d014e;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    font-family: fantasy;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+a {
+    color: #7d014e;
+    text-decoration: none;
+
+}
+
+main {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border: 2px solid #7d014e;
+    width: 200px;
+}
+
+footer {
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    background-color: #7d014e;
+    color: white;
+    height: 30px;
+    vertical-align: middle;
+    padding: 20px;
+}
